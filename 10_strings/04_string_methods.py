@@ -29,4 +29,4 @@ texts = "python1234"
 print(text.isalpha())  #print True if all char in string is alphabets
 print(text.isdigit())  #print true if all char are number in string
 print(text.isalnum())  #print true if all char are mixture of alph & number
-print(text.isspace())  #print true if string contain a space
+print(text.isspace())  #print true if string contain a  space
