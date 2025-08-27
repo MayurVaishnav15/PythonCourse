@@ -7,7 +7,7 @@ print(a)
 print(name.upper())
 print(name.lower())
 print(name.capitalize())
-print(name.title())
+print(name.title()) 
 
 
 print(name.strip())  # this remove starting and ending both blank lines 
