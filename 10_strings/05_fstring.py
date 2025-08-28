@@ -5,6 +5,7 @@ s1=template.format(a,a1)
 print(s1)
 
 # or print(template.format(a,a1)) 
+
 # Now use this concept in fstring
 
 
