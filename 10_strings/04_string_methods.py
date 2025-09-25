@@ -24,6 +24,9 @@ text = "apple,banana,mango"
 print(text.split(","))
 print(",".join(['apple', 'banana', 'mango']))
 
+line = "Python, is dynamically typed language"
+print(line.split(","))
+
 
 texts = " p ython1234"
 print(texts.isalpha())  #print True if all char in string is alphabets
