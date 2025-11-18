@@ -6,8 +6,8 @@ print(a)
 
 print(name.upper())
 print(name.lower())
-print(name.capitalize())
-print(name.title()) 
+print(name.capitalize()) # Changes first letter to UPPERCASE and rest all to LOWERCASE, if first letter is not an alphabet, then it leaves it and make rest of them into LOWERCASE
+print(name.title())      # 
 
 
 print(name.strip())  # this remove starting and ending both blank lines 
@@ -28,8 +28,9 @@ line = "Python, is dynamically typed language"
 print(line.split(","))
 
 
-texts = " p ython1234"
+texts = "p ython1234"
 print(texts.isalpha())  #print True if all char in string is alphabets
 print(texts.isdigit())  #print true if all char are number in string
 print(texts.isalnum())  #print true if all char are mixture of alph & number
-print(texts.isspace())  #print true if string contain a  space
+print(texts.isspace())  #print true if all char are whitespace, not a single aphabet or number should be prenset
+print(" " in texts)     #to check by using "in" keyword , so true if present else false
