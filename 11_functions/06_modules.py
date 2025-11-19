@@ -12,5 +12,5 @@ import requests
 
 print(math.sqrt(9))
 mymodule.hello()
-r = requests.get("https://www.netflix.com")
-print(r.text)
+r = requests.get("https://www.netflix.com")  # othe methods with request. are post, put, delete, head, patch, options, request 
+# print(r.text)
