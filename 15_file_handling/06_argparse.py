@@ -13,5 +13,5 @@ if args.Operation == "sub":
     print(f"The result is {args.num1 - args.num2}")
 if args.Operation == "mul":
     print(f"The result is {args.num1 * args.num2}")
-if args.Operation == "div":
+if args.Operation == "div ":
     print(f"The result is {args.num1 / args.num2}")
